@@ -8,13 +8,13 @@ Currently the app uses `/etc/agenda/agenda.conf` as configuration, which should 
 
 The program doesn't yet create the file because honestly I have no idea how to do "create file if it doesn't exist" stuff yet. Hints are always welcome.
 
-Also try to put the executable in /usr/local/bin/agenda for fast access.
+Also try to put the executable in `/usr/local/bin/agenda` for fast access.
 
 # Usage
 
 Easy:
 ```
-cargo run -- add Make a todo list -d "10 10 2100"
+cargo run -- add Make a todo list -d "1 10 2100"
 ```
 or, after copying the executable:
 ```
