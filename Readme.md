@@ -20,7 +20,7 @@ or, after copying the executable:
 ```
 agenda add Make a todo list -d "1 10 2100"
 ```
-Makes a new item in the todo list with deadline 1 October 2100. The format is `<D> <M> <Y> [h] [m]] [s]`
+Makes a new item in the todo list with deadline 1 October 2100. The format is `<D> <M> <Y> [h] [m] [s]`
 
 ```
 agenda list
