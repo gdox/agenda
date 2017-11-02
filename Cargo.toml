@@ -1,0 +1,12 @@
+[package]
+name = "agenda"
+version = "0.1.0"
+authors = ["gedox <gerwin.dox@ugent.be>"]
+
+[dependencies]
+getopts = "*"
+serde = "*"
+serde_derive = "*"
+toml = "*"
+rustbreak = "*"
+chrono = {version = "*", features = ["serde"]}
